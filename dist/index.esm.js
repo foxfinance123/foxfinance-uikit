@@ -2270,7 +2270,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/green_defi",
+        href: "https://twitter.com/defi_green",
     },
     // {
     //     label: "Reddit",
