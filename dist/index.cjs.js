@@ -210,7 +210,7 @@ var Button = function (_a) {
             })));
 };
 Button.defaultProps = {
-    variant: variants.PRIMARY,
+    variant: variants.SUCCESS,
     size: sizes.MD,
     external: false,
     isLoading: false,
@@ -1084,7 +1084,7 @@ var Tag = function (_a) {
             })));
 };
 Tag.defaultProps = {
-    variant: "primary",
+    variant: "success",
     outline: false,
 };
 
@@ -1095,7 +1095,7 @@ var Link = function (_a) {
     return React__default['default'].createElement(StyledLink, __assign({ as: "a", bold: true }, internalProps, props));
 };
 Link.defaultProps = {
-    color: "primary",
+    color: "success",
 };
 var templateObject_1$o;
 
