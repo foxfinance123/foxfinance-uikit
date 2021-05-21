@@ -19,7 +19,7 @@ const Link: React.FC<LinkProps> = ({ external, ...props }) => {
 };
 
 Link.defaultProps = {
-  color: "success",
+  color: "primary",
 };
 
 export default Link;

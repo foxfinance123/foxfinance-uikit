@@ -11,7 +11,7 @@ const StyleButton = styled(Text).attrs({ role: "button" })`
   position: relative;
   display: flex;
   align-items: center;
-  color: ${({ theme }) => theme.colors.success};
+  color: ${({ theme }) => theme.colors.primary};
 `;
 
 const Tooltip = styled.div<{ isTooltipDisplayed: boolean }>`

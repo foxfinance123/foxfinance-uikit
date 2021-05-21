@@ -5,7 +5,7 @@ import { sizes, variants } from "../Button/types";
 import { ButtonMenuItemProps } from "./types";
 
 type InactiveButtonProps = {
-  colorKey: "success" | "textSubtle";
+  colorKey: "primary" | "textSubtle";
 } & ButtonMenuItemProps;
 
 const InactiveButton = styled(Button)<InactiveButtonProps>`
@@ -20,7 +20,7 @@ const InactiveButton = styled(Button)<InactiveButtonProps>`
 const ButtonMenuItem: React.FC<ButtonMenuItemProps> = ({
   isActive = false,
   size = sizes.MD,
-  variant = variants.SUCCESS,
+  variant = variants.PRIMARY,
   as,
   ...props
 }) => {
@@ -30,7 +30,7 @@ const ButtonMenuItem: React.FC<ButtonMenuItemProps> = ({
         forwardedAs={as}
         size={size}
         variant="tertiary"
-        colorKey={variant === variants.SUCCESS ? "success" : "textSubtle"}
+        colorKey={variant === variants.PRIMARY ? "primary" : "textSubtle"}
         {...props}
       />
     );
