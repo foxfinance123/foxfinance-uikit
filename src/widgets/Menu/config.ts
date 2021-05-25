@@ -123,7 +123,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/defi_green",
+    href: "https://twitter.com/green_defi",
   },
 ];
 
