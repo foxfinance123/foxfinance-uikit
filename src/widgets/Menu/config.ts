@@ -99,11 +99,11 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/greendefi/",
+        href: "https://github.com/foxfinance123/",
       },
       {
         label: "Docs",
-        href: "https://greendefi.gitbook.io/green-defi/",
+        href: "https://foxfinance.gitbook.io/foxfinance/",
       },
     ],
   },
@@ -116,14 +116,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/green_defi",
+        href: "https://t.me/fox_finance",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/green_defi",
+    href: "https://twitter.com/fox_finance",
   },
 ];
 
