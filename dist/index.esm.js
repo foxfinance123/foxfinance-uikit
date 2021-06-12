@@ -75,7 +75,7 @@ var Svg = styled.svg(templateObject_3$8 || (templateObject_3$8 = __makeTemplateO
     return spin && spinStyle;
 }, space);
 Svg.defaultProps = {
-    color: "text",
+    color: "primary",
     width: "20px",
     xmlns: "http://www.w3.org/2000/svg",
     spin: false,
