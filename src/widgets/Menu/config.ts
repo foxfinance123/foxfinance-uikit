@@ -116,14 +116,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/fox_finance",
+        href: "https://t.me/fox_finance_bsc",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/fox_finance",
+    href: "https://twitter.com/FoxFinance2",
   },
 ];
 
